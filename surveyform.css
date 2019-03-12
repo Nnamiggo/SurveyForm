@@ -1,0 +1,21 @@
+body {
+   background-color: white; color: #01040F; font-family: Verdana, Geneva, sans-serif;
+}
+
+#survey-form {
+  max-width: 50%;
+  border: 2px solid black;
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color: #E3E1E0;
+  border-radius: 10px;
+
+
+}
+#formtitle{
+  font-size: 2em;
+  padding-left: 100px;
+  font-weight: bold;
+  color: red;
+}

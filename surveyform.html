@@ -1,0 +1,76 @@
+<!DOCTYPE html html5>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey_Form</title>
+    <link rel="stylesheet" type="text/css" href="surveyform.css">
+  </head>
+  <body>
+
+
+<form id="survey-form" action="" method="">
+<p><label for="formtitle" id="formtitle">Student Survey Form</label></p><br />
+
+<p>
+<label for="name">Enter your name: </label> <input type="text" name="nameplaceholder" value="Put your name here">
+<label for="namedescription" id="name-label"> Write both you names </label>
+</p>
+
+<p>
+  <label for="email">Enter your email: </label>
+  <input type="email" name="emailplaceholder" value="e.g someone@example.com">
+  <label for="emaildescripption" id="email-label"> Your e-mail should be properly formated</label>
+</p>
+
+<p>
+  <label for="nomber">Enter a number: </label>
+  <input type="number" min="1" max="100" value="50">
+  <label for="numberdescription" id="number-label">Enter a number between 1 and 100 </label>
+</p>
+<br />
+<p>
+<label for="sex">Gender: </label>
+    <input type="radio" name="gender" value="Female" checked>
+    <label for="female">Female </label>
+
+    <input type="radio" name="gender" value="Male">
+    <label for="male">Male </label>
+
+    <input type="radio" name="gender" value="Other">
+    <label for="other">Other </label>
+</P>
+<br />
+<p>
+  <label for="kala">What is your fovorite color: </label>
+</p>
+  <p>
+    <input type="radio" name="color" value="red" checked>
+    <label for="red"> Red</label></p>
+  <p>
+    <input type="radio" name="color" value="yellow">
+    <label for="yellow"> Yellow</label>
+  </p>
+
+  <p>
+    <input type="radio" name="color" value="green">
+    <label for="other">Green</label>
+  </p>
+<br />
+<p>
+  <label for="cartype">Which car do you drive:</label>
+</p>
+<input type="checkbox" name="vehicle1" value="benz"> I have a benz<br />
+ <input type="checkbox" name="vehicle2" value="jeep"> I have a jeep<br />
+<br />
+ <p><label for="comments">Additional comments:</label> </P><br />
+
+   <textarea name="bio" rows="10" cols="40"> Write any comments you have</textarea>
+
+     <p>
+       <input type="submit" value="Submit">
+     </p>
+
+</form>
+
+  </body>
+</html>
